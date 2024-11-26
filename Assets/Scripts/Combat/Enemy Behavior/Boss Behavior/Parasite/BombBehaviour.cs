@@ -28,7 +28,7 @@ public class BombBehaviour : MonoBehaviour
         explosionVisual.SetActive(true);
         explosionFXSource.PlayOneShot(explosionFXSource.clip);
         explosionParticles.Emit(80);
-        transform.parent.GetComponent<Rigidbody2D>().velocity = Vector3.zero;
+        transform.parent.GetComponent<Rigidbody2D>().linearVelocity = Vector3.zero;
         transform.parent.GetComponent<SpriteRenderer>().enabled = false;
         StartCoroutine(BombVisualDelay(0.6f));
 
@@ -63,7 +63,7 @@ public class BombBehaviour : MonoBehaviour
     {
         Rigidbody2D rb = GetComponentInParent<Rigidbody2D>();
         yield return null;
-        if (rb.velocityX < 0)
+        if (rb.linearVelocityX < 0)
         {
             while (transform.parent.gameObject.transform.position.x > CombatStageManager.Instance.HorizontalLowerBound)
             {

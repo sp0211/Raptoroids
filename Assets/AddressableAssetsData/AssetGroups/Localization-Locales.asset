@@ -13,18 +13,16 @@ MonoBehaviour:
   m_Name: Localization-Locales
   m_EditorClassIdentifier: 
   m_GroupName: Localization-Locales
-  m_Data:
-    m_SerializedData: []
   m_GUID: babe9a68575ef3b4f81de75b8f8ec94f
   m_SerializeEntries:
-  - m_GUID: 64dff18b9aeac774791a44ec1c930f69
-    m_Address: English (United States) (en-US)
+  - m_GUID: 2e9f0837a962e674ea329a0bd0795b57
+    m_Address: Japanese (Japan) (ja-JP)
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 2e9f0837a962e674ea329a0bd0795b57
-    m_Address: Japanese (Japan) (ja-JP)
+  - m_GUID: 64dff18b9aeac774791a44ec1c930f69
+    m_Address: English (United States) (en-US)
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale

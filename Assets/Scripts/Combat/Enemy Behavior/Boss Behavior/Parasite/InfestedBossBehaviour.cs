@@ -158,7 +158,7 @@ public class InfestedBossBehaviour : BossBehavior
         }
         GameObject prefabClone = Instantiate(bombPrefab, spawnPos, Quaternion.identity);
         Rigidbody2D rb = prefabClone.GetComponent<Rigidbody2D>();
-        rb.velocity =  spawnFromRight ? Vector2.left * bombSpeed : Vector2.right * bombSpeed;   
+        rb.linearVelocity =  spawnFromRight ? Vector2.left * bombSpeed : Vector2.right * bombSpeed;   
     }
 
     private void EnableTentacleHitbox(){

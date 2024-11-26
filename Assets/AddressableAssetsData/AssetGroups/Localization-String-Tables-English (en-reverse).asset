@@ -13,28 +13,8 @@ MonoBehaviour:
   m_Name: Localization-String-Tables-English (en-reverse)
   m_EditorClassIdentifier: 
   m_GroupName: Localization-String-Tables-English (en-reverse)
-  m_Data:
-    m_SerializedData: []
   m_GUID: d00398fdb9f11430da749928db8eefc9
   m_SerializeEntries:
-  - m_GUID: be360a477b5f31343900328ebc310302
-    m_Address: MainMenu_en-reverse
-    m_ReadOnly: 1
-    m_SerializedLabels:
-    - Locale-en-reverse
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: b3fc500d2bcb08d4294434f2b0540309
-    m_Address: RaptoroidShopFlavorText_en-reverse
-    m_ReadOnly: 1
-    m_SerializedLabels:
-    - Locale-en-reverse
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: e98d67a7fd667d745a32adaec34f11cc
-    m_Address: WeaponShopFlavorText_en-reverse
-    m_ReadOnly: 1
-    m_SerializedLabels:
-    - Locale-en-reverse
-    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 7f327869bd994e6438454e608eae25d9
     m_Address: ShopMenu_en-reverse
     m_ReadOnly: 1
@@ -47,14 +27,32 @@ MonoBehaviour:
     m_SerializedLabels:
     - Locale-en-reverse
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: e79d2dfe9beb6cd43939d16a759b9591
-    m_Address: Intro_en-reverse
+  - m_GUID: b3fc500d2bcb08d4294434f2b0540309
+    m_Address: RaptoroidShopFlavorText_en-reverse
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en-reverse
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: be360a477b5f31343900328ebc310302
+    m_Address: MainMenu_en-reverse
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-en-reverse
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: ca2f1de7b562c44498779d1c751559ba
     m_Address: TutorialSequence_en-reverse
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en-reverse
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e79d2dfe9beb6cd43939d16a759b9591
+    m_Address: Intro_en-reverse
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en-reverse
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e98d67a7fd667d745a32adaec34f11cc
+    m_Address: WeaponShopFlavorText_en-reverse
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-en-reverse
