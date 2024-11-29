@@ -34,12 +34,13 @@ public class PlayerMovement : MonoBehaviour
     void Awake()
     {
         statusHandler = GetComponent<StatusEffectHandler>();
-        joystickController = FindFirstObjectByType<JoystickController>();
     }
 
-    void Start() {
+    void Start() 
+    {
         upperBound = Camera.main.ViewportToWorldPoint(new Vector3(1, 1, 0));
         lowerBound = Camera.main.ViewportToWorldPoint(new Vector3(0, 0, 0));
+        joystickController = FindFirstObjectByType<JoystickController>();
     }
 
     void Update()
